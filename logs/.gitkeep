@@ -1,0 +1,36 @@
+# 日志目录
+
+此目录用于存放应用日志文件。
+
+## 日志文件
+
+### 开发环境
+- `backend.log` - 后端服务日志
+- `frontend.log` - 前端服务日志
+
+### 生产环境
+- 后端日志位置：`/opt/asset-management/logs/backend.log`
+- 前端日志：Nginx访问日志
+
+## 查看日志
+
+```bash
+# 实时查看后端日志
+tail -f logs/backend.log
+
+# 实时查看前端日志
+tail -f logs/frontend.log
+
+# 查看最近100行
+tail -n 100 logs/backend.log
+```
+
+## 日志清理
+
+日志文件会自动按日期滚动，旧日志会被压缩保存。
+
+手动清理：
+```bash
+# 删除7天前的日志
+find logs/ -name "*.log.*" -mtime +7 -delete
+```

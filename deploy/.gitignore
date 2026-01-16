@@ -1,0 +1,26 @@
+# 运行时生成的文件
+*.jar
+*.pid
+app.pid
+
+# 日志文件
+logs/
+*.log
+
+# 备份文件
+*.bak
+backup-*/
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.idea/
+.vscode/
+*.iml
