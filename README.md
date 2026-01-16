@@ -85,7 +85,7 @@ spring:
   datasource:
     url: jdbc:mysql://192.168.1.119:33096/zcgl
     username: ipi
-    password: IPI_i314
+    password: XXXXXX
 ```
 
 ## 端口配置
