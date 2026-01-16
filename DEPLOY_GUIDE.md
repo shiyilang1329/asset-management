@@ -68,7 +68,7 @@ vi backend/config/application.yml
 ### 6. 初始化数据库（首次部署）
 
 ```bash
-mysql -h 192.168.1.119 -P 33096 -u ipi -pIPI_i314 zcgl < database-init.sql
+mysql -h 192.168.1.119 -P 33096 -u ipi -p你的密码 zcgl < database-init.sql
 ```
 
 ### 7. 启动后端

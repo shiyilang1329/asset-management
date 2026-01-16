@@ -84,7 +84,7 @@ scp asset-management-production-*.tar.gz root@server:/tmp/
 spring:
   datasource:
     url: jdbc:mysql://192.168.1.119:33096/zcgl
-    username: ipi
+    username: xxx
     password: XXXXXX
 ```
 
